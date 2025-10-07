@@ -33,3 +33,18 @@ a,
     padding: 0 2rem;
   }
 }
+
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "ZCOOL QingKe HuangYou";
+  src: url("@/assets/fonts/ZCOOL.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "ZCOOL QingKe HuangYou", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
