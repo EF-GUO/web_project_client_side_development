@@ -26,12 +26,7 @@ const router = createRouter({
       ]
 
     },
-    
-    // {
-    //   path: '/login',           // 登录页面路径，例如 http://localhost:5173/login
-    //   name: 'login',            // 路由名字
-    //   component: () => import('../views/LoginView.vue') // 懒加载组件（按需加载）
-    // },
+  
 
   ],
 })

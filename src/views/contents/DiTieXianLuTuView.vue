@@ -1,6 +1,6 @@
 <template>
   <el-card>
-    <h3>打卡景点</h3>
+    <h3>地铁线路图</h3>
     <p>这里放热门景点卡片/图片介绍。</p>
   </el-card>
 </template>

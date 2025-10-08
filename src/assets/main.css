@@ -1,9 +1,9 @@
 @import './base.css';
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  max-width: none;
+  margin: 0;
+  padding: 0;
   font-weight: normal;
 }
 
@@ -39,12 +39,12 @@ a,
 }
 
 @font-face {
-  font-family: "ZCOOL QingKe HuangYou";
-  src: url("@/assets/fonts/ZCOOL.ttf") format("truetype");
-  font-weight: normal;
+  font-family: "MyFont";
+  src: url("@/assets/fonts/KuKe.ttf") format("truetype");
+  font-weight: 800;
   font-style: normal;
 }
 
 body {
-  font-family: "ZCOOL QingKe HuangYou", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: "MyFont";
 }
