@@ -3,12 +3,16 @@ import { createRouter, createWebHistory } from 'vue-router'
 //布局页
 import IndexView from '@/views/IndexView.vue'
 
+
 //内容页面
 const DaKaJingDianView = () => import('@/views/contents/DaKaJingDianView.vue')
 const MeiShiTuiJianView = () => import('@/views/contents/MeiShiTuiJianView.vue')
 const DiTieXianLuTuView = () => import('@/views/contents/DiTieXianLuTuView.vue')
 
 
+
+//实验页面
+import ExperimentView01 from '@/views/ExperimentView01_html.vue'
 
 
 const router = createRouter({
@@ -26,6 +30,11 @@ const router = createRouter({
       ]
 
     },
+    // {
+    //   path:'/experiment_01',
+    //   name:'experiment_01',
+    //   component:ExperimentView01,
+    // }
   
 
   ],

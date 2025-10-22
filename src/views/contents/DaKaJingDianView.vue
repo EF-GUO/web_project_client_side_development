@@ -4,7 +4,7 @@
   <el-skeleton v-if="loading" :rows="4" animated class="w-[1200px] mx-auto mt-100px" />
 
   <!-- 列表信息 -->
-  <div v-else class="flex flex-col ml-150px mt-50px">
+  <div v-else class="flex flex-col ml-200px mt-30px mb-80px">
 
     <el-card v-for="s in spots" :key="s.id" class="content-item">
         <div class="flex relative items-center gap-6">
@@ -28,7 +28,12 @@
           </div>
 
           <!-- 按钮 -->
-          <el-button  type="primary" round class="w-[150px] h-[50px] absolute bottom-100px right-30px">了解更多</el-button>
+          <el-button  type="primary" class="w-[120px] h-[50px] absolute bottom-120px right-10px">了解更多</el-button>
+
+          <!-- 天气 -->
+          <div>
+            
+          </div>
 
           <!-- 地址 -->
           <div class="w-400px absolute bottom-10px right-10px">

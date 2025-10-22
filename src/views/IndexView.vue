@@ -17,7 +17,7 @@
 
 
 <template>
-  <el-container class="h-screen w-screen">
+  <el-container class="h-screen w-screen ">
 
       <!-- 左侧导航栏 -->
       <el-aside width="300px" class="aside-left">
@@ -47,7 +47,7 @@
             <span class="absolute bottom-4 left-4 text-sm">JonZuo</span>
       </el-aside>
      
-      <el-main class="min-w-0 p-0">
+      <el-main class="min-w-0 p-0" :style="{ background: 'linear-gradient(to bottom right, #f9fcff 0%)', minHeight: '100vh' }">
         <el-scrollbar>
             <div class="h-screen-2xl">
               <RouterView />
@@ -61,23 +61,20 @@
 
 
 
-
 <style scoped>
 
-
-
 .aside-left{
-  @apply sticky top-0 h-screen pt-10 border-r overflow-hidden flex flex-col items-center;
+  @apply sticky top-0 h-screen pt-10  overflow-hidden flex flex-col items-center border-r;
+  /* Use project border color instead of default black */
+  border-right-color: var(--color-border);
 }
 
 .menu-left{
-  @apply mt-20 text-center border-black-400 w-[300px] border-r;
+  @apply mt-20 text-center w-[300px] ;
 }
 
 .menu-item {
   @apply text-lg m-10px h-50px rounded-2xl;
 }
-
-
 
 </style>
